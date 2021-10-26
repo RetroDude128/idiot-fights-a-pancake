@@ -1,9 +1,10 @@
 {
-    "name": "idiot fights a pancake",
+    "name": "Idiot Arena - Pancake",
     "description": "",
     "dependencies": {
         "device": "*",
-        "Color Fading": "github:jwunderl/pxt-color#v0.2.1"
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
     },
     "files": [
         "main.blocks",
