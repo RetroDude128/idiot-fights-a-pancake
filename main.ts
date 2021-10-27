@@ -506,7 +506,7 @@ forever(function () {
         } else {
             mySprite3.vx = 50
         }
-        if (mySprite3.isHittingTile(CollisionDirection.Bottom) && Math.percentChance(50 - (mySprite3.x - mySprite2.x))) {
+        if (mySprite3.isHittingTile(CollisionDirection.Bottom) && Math.percentChance(25 - (mySprite3.x - mySprite2.x))) {
             mySprite3.vy = -150
         }
         if (mySprite3.overlapsWith(mySprite2)) {
